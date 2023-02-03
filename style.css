@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.aboutMe {
+  
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  color:white;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  
+}
+
+#aboutMeParagraph {
+  max-width: 600px;
+}
+#imageSelf {
+  border-radius: 50%;
+  margin-top: 10px;
+  height: 300px;
+}
+
+.aboutContainer {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  
+  background-color: #a13030;
+}
+h2{
+  margin-top: 90px;
+  font-size: 32px;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.item {
+  width: 50%;
+  height: 100%;
+  
+}
+
+img {
+  margin-top: 50px;
+  height: 300px;
+}
+#audioImg {
+  height: 247px;
+}
+
+#programming:hover {
+  background-color: #b8fffa;
+  
+}
+
+#programming > h3 {
+  color:#00ccff;
+}
+#Art:hover {
+  background-color: #feffb8;
+  color: black;
+}
+#Art > h3 {
+  color:#ffdd00;
+}
+#Music:hover {
+  background-color: #ffb8c9;
+  color: black;
+}
+#Music > h3 {
+  color:#fd174c;
+}
+.item:hover > p  {
+  color: black;
+  
+}
+
+p {
+  margin-top: 40px;
+  font-family: cursive;
+  color: white;
+  font-size: 100%;
+  max-width: 400px;
+  margin:auto;
+}
+
+/* Screen Size for 1900 */
+@media screen and (max-width: 1900px) {
+  h1{
+  font-size: 50px;
+}
+h2{
+  margin-top: 120px;
+  font-size: 42px;
+}
+#imageSelf {
+  border-radius: 50%;
+  margin-top: 30px;
+  height: 500px;
+}
+  
+h3 {
+
+  font-size: 42px;
+}
+p {
+  font-size: 150%;
+}
+img {
+  margin-top: 50px;
+  height: 400px;
+}
+  #audioImg {
+  height: 347px;
+}
+  
+}
+
+/* Screen Size for 1400 */
+@media screen and (max-width: 1400px) {
+  h1{
+  font-size: 30px;
+}
+h2{
+  margin-top: 90px;
+  font-size: 32px;
+}
+#imageSelf {
+  border-radius: 50%;
+  margin-top: 30px;
+  height: 300px;
+}
+  
+h3 {
+
+  font-size: 22px;
+}
+p {
+  font-size: 100%;
+  
+}
+img {
+  margin-top: 50px;
+  height: 300px;
+}
+  #audioImg {
+  height: 247px;
+}
+  .aboutContainer {
+  height: 103%;
+}
+}
+
+/* Screen Size for Mobile */
+
+@media screen and (max-width: 450px) {
+body {
+  
+  width: 100%;
+  height: 100%;
+  margin:auto;
+  text-align: center;
+}
+  .aboutMe {
+    width:190%;
+  }
+
+.aboutContainer {
+  border: 1px solid black;
+  height: 250vh;
+  display: flex;
+  flex-direction: column;
+  width:190%;
+  background-color: #a13030;
+  align-items: center;
+  justify-content: center;
+}
+   .item > p {
+     color: black;
+   }
+  .item {
+    justify-content: center;
+    width:190%;
+  }
+
+  #programming {
+  background-color: #b8fffa;
+}
+#Art {
+  background-color: #feffb8;
+  
+}
+
+#Music {
+  background-color: #ffb8c9;
+}
+  p  {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+}
